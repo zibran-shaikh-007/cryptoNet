@@ -1,0 +1,107 @@
+<nav data-spy="scroll" class="navbar navbar-expand-xl sticky-top">
+    <a class="logo" href="/dashboard"><img src="https://i.imgur.com/LRKdmoz.png" id="logo" />  </a>
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContentXL" aria-controls="navbarSupportedContentXL" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContentXL">
+        <ul class="navbar-nav mr-auto">
+            <li id="arrow_box" class="nav-item ">
+                <a class="btn" href="/dashboard">Home </a>
+            </li>
+            <li class="nav-item">
+                <a class="btn" href="/report">Report</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn" href="/exchanges">Exchanges</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn" href="/graph">Graph</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn" href="/news">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn" href="/forum">Forum</a>
+            </li>
+            <li class="nav-item ">
+                <a class="btn" href="/coin">About Coins</a>
+            </li>
+            <li class="nav-item active">
+                <a class="btn" href="/about">About Us</a>
+            </li>
+        </ul>
+        <header class="header-bar mb-2">
+            <div class="container d-flex flex-column flex-md-row align-items-center p-2">
+                <div class="flex-row my-2 my-md-0">
+                    <strong style="color: white;text-transform: capitalize;">Hi,<a class="mr-2"
+                            id="navusername">{{username}}</a></strong>
+                    <form action="/logout" method="POST" class="d-inline">
+                        <button class="btn btn-sm btn-danger">Sign Out</button>
+                    </form>
+                </div>
+            </div>
+        </header>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-sm " style="background-color: rgb(194, 183, 183); ">
+    <div class="navbar-nav mx-auto">
+        <a class="btn nav-item nav-link" style="color:rgb(66, 57, 57);" href="/gambling"><b>Gambling</b></a>
+        <a class="btn nav-item nav-link" style="color:rgb(66, 57, 57);" href="/wallet"><b>Wallets</b></a>
+        <a class="btn nav-item nav-link" style="color:rgb(66, 57, 57);" href="/mining"><b>Mining</b></a>
+    </div>
+</nav>
+</div>
+
+
+
+<div class="team-section">
+    <h1>Our services</h1>
+    <span class="border"></span>
+    <div class="about">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                    <i class="fab fa-btc" style="font-size: 2.5em;"></i>
+                </div>
+                <h2>LIVE TRACKING</h2>
+                <br>
+                <span class="border"></span>
+                <p>Track realtime price of all the available cryptocurrency. <a href="/dashboard">Track rates here.</a>
+                </p>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                    <i class="fas fa-chart-line" style="font-size: 2.5em;"></i>
+                </div>
+                <h2>7 DAY GRAPH</h2>
+                <br>
+                <span class="border"></span>
+                <p>Step up your trading game by tracking price up or down through graph of 7 days.<a href="/graph">Click
+                        here to checkout graph.</a></p>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                    <i class="far fa-newspaper" style="font-size: 2.5em;"></i>
+                </div>
+                <h2>NEWS</h2>
+                <br>
+                <span class="border"></span>
+                <p>Get all the latest news about cryptocurrency. <a href="/news">Click here to read news.</a></p>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                    <i class="fab fa-foursquare" style="font-size: 2.5em;"></i>
+                </div>
+                <h2>FORUM</h2>
+                <br>
+                <span class="border"></span>
+                <p>Get involved in latest discussion related to cryptocurrency.<a href="/forum">Get started here.</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<footer></footer>
